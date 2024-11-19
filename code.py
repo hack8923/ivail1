@@ -41,3 +41,5 @@ filtered_products = filter_products(criteria)
 
 for product in filtered_products:
     print(f"{product.name}: Вес {product.weight}, Высота {product.height}, Ширина {product.width}, Объем {product.volume}")
+
+input("Нажмите Enter для завершения...")
